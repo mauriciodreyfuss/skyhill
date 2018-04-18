@@ -1,0 +1,302 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>{$title}</title>
+  <!-- Google Tag Manager -->
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+
+})(window,document,'script','dataLayer','GTM-MWP4KKJ');</script>
+
+<!-- End Google Tag Manager -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+{$meta_tags}
+{$text_css}
+{$head}
+{$js_jquery}
+
+<link href="httpy://www.eduleoni.com.br/clientes/nob/css/slider.css" rel="stylesheet" type="text/css" media="screen" />    
+<link rel="canonical" href="http://www.skyhill.com.br/" />
+<script type="text/javascript" src="httpy://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="httpy://www.eduleoni.com.br/clientes/nob/js/easySlider1.7.js"></script>
+<!-- Script para o lightbox dos revendedores -->
+<script type="text/javascript" src="httpy://www.eduleoni.com.br/clientes/skyhill/slider-mapa/lytebox.js"></script>
+<link rel="stylesheet" type="text/css" href="httpy://www.eduleoni.com.br/clientes/skyhill/slider-mapa/lytebox.css" media="screen">
+
+ 
+
+<link rel="icon" href="{path_img_layout}favicon-sky.gif" type="image/gif" />
+<script type="text/javascript">
+        $(document).ready(function(){    
+          /*$("#slider").easySlider({
+                auto: true, 
+                continuous: true,
+                numeric: true
+            });*/
+        });    
+    </script>
+    
+    <script type="text/javascript">
+           $(document).ready(function() {
+               
+                   var home_pag = $('body').find('#verificaHome').html();
+                if(home_pag == null)
+                {
+                    $('#slider').html('');
+                       $('#slider').css('display','none');
+                       $('#controls').html('');
+                       $('#controls').css('display','none');
+                       $('#boxEstilos').html('');
+                       $('#boxEstilos').css('display','none');
+                       $('#lateralEsquerda').css('margin-top','5px');
+                       $('#conteudoPrincipal').css('margin-top','5px');
+
+                    //alert('Nao existe');
+                    
+                }else if(home_pag != null){
+                    //alert('a div existe');
+                }
+                  
+           });
+       </script>
+
+<!-- Script para a pagina dos revendedores -->
+
+       <script type="text/javascript">
+$(document).ready(function(){
+    $('select[name="estados"]').change(function(){
+        var id_estado = $(this).val();
+        $('.estado_bloco').css('display','none');
+        $('#' + id_estado).css('display','block');
+    });
+});
+       </script>
+
+<!-- Script botão voltar ao topo -->
+
+<script type="text/javascript">
+$(function(){$.fn.scrollToTop=function(){$(this).hide().removeAttr("href");if($(window).scrollTop()!="0"){$(this).fadeIn("slow")}var scrollDiv=$(this);$(window).scroll(function(){if($(window).scrollTop()=="0"){$(scrollDiv).fadeOut("slow")}else{$(scrollDiv).fadeIn("slow")}});$(this).click(function(){$("html, body").animate({scrollTop:0},"slow")})}});
+
+  $(function() {
+                $("#toTop").scrollToTop();
+            });
+        </script>
+  <!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '1207516402594216');
+fbq('track', "PageView");</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1207516402594216&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MWP4KKJ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div id="pagina" style="position:relative; width:100%">
+    <div id="header">
+        <a href="{$loja_url}" class="logoSkyhill"><h1>Skyhill</h1></a>
+
+        <ul class="navHeader">
+          <li><a href="http://www.skyhill.com.br">Produtos  <img src="{path_img_layout}divisoria-menu.png" /></a></li>
+ <li><a href="index.php?pg=conteudo&idpag=15971&cdg=3119&sid=">Revendedores  <img src="{path_img_layout}divisoria-menu.png" /></a></li>
+ <li><a href="index.php?pg=conteudo&idpag=15956&cdg=3119&sid=">Representantes  <img src="{path_img_layout}divisoria-menu.png" /></a></li>           
+            <li><a href="index.php?pg=conteudo&idpag=14661&cdg=3119&sid=">Cadastre-se  <img src="{path_img_layout}divisoria-menu.png" /></a></li>
+            <li><a href="index.php?pg=conteudo&idpag=15939&cdg=3119&sid=">Fale Conosco</a></li>
+        </ul>
+        
+        <div id="boxSocial">
+            <a href="https://www.facebook.com/skyhillbr" target="blank"><img src="{path_img_layout}ico-facebook.png" alt="Icone Facebook Skyhill" title="Facebook Skyhill" width="40px" /></a>
+          <a href="http://www.instagram.com/skyhill_br" target="blank"><img src="{path_img_layout}ico-instagram.png" alt="Icone Instagram Skyhill" title="Instagram Skyhill" width="40px" /></a>
+         
+        </div>
+        
+        <div id="menuHeaderUser">
+            <ul class="navHeaderUser">
+                <li><a href="{$loja_url}/login">MEU CADASTRO</a></li>
+                <li><a href="{$loja_url}/login">MEUS PEDIDOS</a></li>
+            </ul>
+        </div>
+        
+        <div id="busca">
+            <div id="div_busca" style="position:relative; left:0px; width:301px; z-index:5; display:block;">
+                <form name="snet_busca" target="_top" method="post" action="{$loja_url}" onSubmit="if ((pesquisa.value == '')) { alert('Informe o que deseja procurar !'); return false; }" style="margin:0px;">
+                <div style="float:left; padding-left:8px; padding-top:8px;"><input name="pesquisa" type="text" style="WIDTH:250px; HEIGHT:21px; font-family:Arial, Helvetica, sans-serif; font-weight:bold; font-size:14px; padding:0px 0px 0px 0px; border: 0px solid #444444;" onFocus="if(this.value=='Digite o que você procura...'){this.value=''}" value="Digite o que você procura..."></div>
+                <div style="float:right; padding-right:0px; padding-top:8px; "><a href="javascript:buscaSimples('digite o que você procura');"><img src="{path_img_layout}space.gif" alt="Buscar ..." width="43" height="25" border="0"></a></div>
+                </form>
+                </div>
+        </div>
+        
+        <div id="carrinhoHeader">
+            <spam class="fonteloginpedido"> Itens: {$carrinho_qtd_itens} - <a href="{$loja_url}/carrinho">{$carrinho_valor_total}</a></spam>
+        </div>
+        
+    </div>
+    
+    <div id="pageWrapper">
+      <div id="gradienteTopo"></div>
+      
+      <div id="gradienteLados">
+      <!-- Banner HOME -->
+        {if="$conteudo_area_cabecalhoinferior"}<table style="width: 920px; height: 400px; border: 0px;" border="0" cellpadding="0" cellspacing="0" align="center"><tr><td><div class="banner-principal">{$conteudo_area_cabecalhoinferior}</div></td></tr></table>{/if}
+              <!--div id="slider">
+                <ul>                
+                    <li><a href="categoria_59149_3119_HIDRATACAO"><img src="{path_img_layout}banner-hidratacao-skyhill-2015.jpg" alt="hidratacao" title="hidratacao" /></a></li>
+                    <li><a href="produto_156992_3119_Luva-de-Neoprene-sem-Polegar"><img src="{path_img_layout}banner-luva-preta-2015.jpg" alt="luva sem polegar" title="luva sem polegar" /></a></li>
+                    <li><a href="produto_157075_3119_Cinto-de-Hidratacao-2-Garrafas"><img src="{path_img_layout}banner-cinto-rosa.jpg" alt="cinto duas garrafas rosa" title="cinto duas garrafas rosa" /></a></li>            
+                </ul>
+            </div-->
+          <!-- Banner HOME -->          
+            <div id="boxEstilos">
+                <div id="boxEstiloFitness">
+                    <a href="http://skyhill.com.br/categoria/fitness/51587"><h1 class="fitness">Fitness</h1><img src="{path_img_layout}fitness.jpg" alt="Produtos para Fitness" title="Produtos para Fitness" />
+                    <span class="verMais">Todos produtos</span>
+                    </a>
+                </div>
+                <div id="boxEstiloRunning">
+                    <a href="http://skyhill.com.br/categoria/running/58208"><h1 class="running">Running</h1><img src="{path_img_layout}running.jpg" alt="Produtos para Running" title="Produtos para Running" />
+                    <span class="verMais">Todos produtos</span>
+                    </a>
+                </div>
+                <div id="boxEstiloOrtopedia">
+                    <a href="http://skyhill.com.br/categoria/hidratacao/59149"><h1 class="ortopedia">Hidratação</h1><img src="{path_img_layout}hidratacao.jpg" alt="Produtos para Ortopedia" title="Produtos para Ortopedia" />
+                    <span class="verMais">Todos produtos</span>
+                    </a>
+                </div>
+                <div id="boxEstiloAcessorios">
+                    <a href="http://skyhill.com.br/categoria/cross-fit/59160"><h1 class="acessorios">Cross Training</h1><img src="{path_img_layout}linha-cf.jpg" alt="Cross Fit" title="Cross Fit" />
+                    <span class="verMais">Todos produtos</span>
+                    </a>
+                </div>
+            </div>
+        
+            
+        	<div id="sidebar" style="{if="!$bool_lateral_esquerda && !$bool_lateral_direita"}display: none{/if}">
+                <div id="div_lateral_esq" style="{if="$bool_lateral_esquerda == true"}display:block{else}display:none{/if}">
+                    <!--<div id="categorias_cabecalho"></div>-->
+                        <div id="categorias_back">
+                            
+                            {$html_menu_categorias_lateral}
+                            
+                            <!-- Link manual para o catalogo -->
+                            <div class="lista_categorias">
+                                <div style="margin-left:0px">
+                                    <a href="http://issuu.com/skyhill/docs/catalogo_skyhill_2014" target="_blank"><font><strong>CATÁLOGO</strong></font></a>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    <!--<div id="categorias_end"></div>-->
+                </div>
+                <!--<!-- LATERAL PRODUTOS -->
+                {$conteudo_area_lateralesquerda}
+                
+                <!--Seria Lado Direito-->
+                <div id="div_lateral_dir" style="{if="$bool_lateral_direita"}display:block{else}display:none{/if}">
+                {$snippet_chat_onoff}
+                {$conteudo_area_lateraldireita}
+                
+                </div>
+                <!--Seria Lado Direito-->
+            </div>
+            
+            <div class="article {if="!$bool_lateral_esquerda && !$bool_lateral_direita"}article930{else}article686{/if}">
+                <div id="banner_top" style="display:none;"></div>
+                    {include_conteudo}{$conteudo_area_centroinferior}
+            </div>
+            
+            
+      </div>
+      
+      <div id="gradienteBottom"></div>  
+        
+   </div>
+    
+    <div id="bgFooter">
+        
+     
+        
+        <div id="footer">
+            <div class="empresa">
+                <h3>A Empresa</h3>
+                <ul>
+                    <li><a href="index.php?pg=conteudo&idpag=15934&cdg=3119&sid=">Sobre</a></li>
+                    <li><a href="index.php?pg=conteudo&idpag=15935&cdg=3119&sid=">Materiais</a></li>
+                    <!--<li><a href="#">Lojas</a></li>-->
+                    <li><a href="index.php?pg=conteudo&idpag=15936&cdg=3119&sid=">Trocas e Devoluções</a></li>
+                    <li><a href="index.php?pg=conteudo&idpag=15937&cdg=3119&sid=">Termos de Uso</a></li>
+                    <li><a href="index.php?pg=conteudo&idpag=14657&cdg=3119&sid=">Como comprar</a></li>
+                    <li><a href="index.php?pg=conteudo&idpag=15938&cdg=3119&sid=">Pagamentos e envio</a></li>
+                    <li><a href="index.php?pg=conteudo&idpag=15939&cdg=3119&sid=">Fale Conosco</a></li>
+                    <li><a href="index.php?pg=conteudo&idpag=15971&cdg=3119&sid=">Revendedores</a></li>  
+                    <li><a href="index.php?pg=conteudo&idpag=15956&cdg=3119&sid=">Representantes</a></li>   
+ 
+                </ul>
+            </div>
+            
+            <div class="produtos">
+                <h3>Produtos</h3>
+                <ul>
+                    <li><a href="categoria_51587_3119_Fitness">Fitness</a></li>
+                    <li><a href="categoria_58208_3119_Running">Running</a></li>
+                    <li><a href="categoria_59149_3119_HIDRATACAO">Hidratação</a></li>
+                    <li><a href="categoria_59150_3119_LINHA-UV">Linha UV</a></li>
+                    <li><a href="categoria_51588_3119_Ortopedia">Ortopedia</a></li>
+                    <li><a href="categoria_59151_3119_PROMOCOES">Promoções</a></li>
+                    <li><a href="categoria_58210_3119_Catalogo-Completo">Catálogo</a></li>
+                    <li><a href="index.php?pg=conteudo&idpag=15957&cdg=3119&sid=">Produtos Personalizados</a></li>
+
+               </ul>
+            </div>
+
+            <div class="atletas">
+                <h3>Atletas</h3>
+                <ul>
+                    <li><a href="index.php?pg=conteudo&idpag=15954&cdg=3119&sid=">Flávio de Marco Garcia</a></li>
+                    <li><a href="index.php?pg=conteudo&idpag=15955&cdg=3119&sid=">Andréia Cristina Coelho</a></li>
+
+                </ul>
+            </div>
+
+<div class="compraSegura">
+                <h3>Compra Segura</h3>
+<a href="index.php?pg=conteudo&idpag=14659&cdg=3119&sid="><img height="95" align="right" title="Site Seguro - Comodo" alt="Logo Selo Comodo" src="{path_img_layout}selo_comodo.gif"></a>
+            <a href="http://www.pagseguro.com.br" target="_blank"><img src="{path_img_layout}logo-pagseguro.png" alt="Logo PagSeguro UOL" title="Compra Segura PagSeguro UOL" width="140" height="35" /></a><br><br><!--<img src="{path_img_layout}site-blindado.png" alt="Logo Site Blindado" title="Site Seguro - Site Blindado" width="119" height="36" align="right" style="*margin-top:-30px;" /><br><br>-->
+                
+<ul class="formaspagto">
+                    <li><img width="44" height="28" alt="Logo Mastercard" title="Aceitamos Mastercard" src="{path_img_layout}mastercard.png"></li>
+                    <li><img width="44" height="28" alt="Logo Visa" title="Aceitamos Visa" src="{path_img_layout}visa.png"></li>
+<li><img width="44" height="28" alt="Logo Visa" title="Aceitamos American Express" src="{path_img_layout}amex.png"></li>
+<li><img width="44" height="28" alt="Logo Visa" title="Aceitamos Diners Club" src="{path_img_layout}diners.png"></li>
+<li><img width="44" height="28" alt="Logo Visa" title="Aceitamos Transferência Banco do Brasil" src="{path_img_layout}bbrasil.png"></li>
+                    <!--<li><img width="44" height="28" alt="Logo Itaú Shopline" title="Aceitamos Itaú Shopline" src="{path_img_layout}itau.png"></li>-->
+                    <li><img width="44" height="28" alt="Logo Boleto Bancário" title="Aceitamos Boleto Bancário" src="{path_img_layout}boleto.png"></li>
+                </ul>
+            </div>
+            <div id="copyRight"><span>Skyhill</span> - © Copyright 2016 - Todos os direitos reservados</div>    
+         </div>
+        </div>
+    </div>
+
+</div>   
+  
+{$text_javascript}
+{$footer}
+
+</html>
